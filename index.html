@@ -124,7 +124,7 @@
 
         function runCode() {
             document.getElementById("output").innerText = "Running...";
-            $.post("https://ibrahim-api.onrender.com/run", { code: editor.getValue() }, function(data) {
+            $.post("https://ibrahm-python-text-editor.onrender.com", { code: editor.getValue() }, function(data) {
                 document.getElementById("output").innerText = data.output;
             });
         }
